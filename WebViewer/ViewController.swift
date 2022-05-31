@@ -14,7 +14,9 @@ class ViewController: UIViewController,UITabBarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        let url = URL(string: "ランディングページのURL")
+//        let request = URLRequest(url: url!)
+//        webviewer.load(request)
         self.tabBar.delegate = self
     }
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
